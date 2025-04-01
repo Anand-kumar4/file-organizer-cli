@@ -1,16 +1,24 @@
 # 🧹 File Organizer CLI
 
-A simple, command-line Python utility to organize files in a directory based on their file extensions.
+![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
+![Status](https://img.shields.io/badge/status-active-brightgreen)
+![License](https://img.shields.io/badge/license-MIT-lightgrey)
+
+A simple and lightweight Python CLI tool to **organize files in a folder** by their file extensions. Perfect for cleaning up downloads, code folders, or messy directories.
+
+---
 
 ## 📦 Features
-- Organizes files by file type (e.g., `.jpg`, `.pdf`, `.txt`)
-- Automatically creates folders for each file type
-- Logs all file moves into `file_organizer.log`
-- Handles invalid paths gracefully
 
-## 🚀 How to Use
+- 📂 Organizes files by extension (e.g., `.jpg`, `.pdf`, `.txt`)
+- 🧠 Auto-creates folders like `/PDF`, `/JPG`, etc.
+- 🪵 Logs every action to `file_organizer.log`
+- 🛡️ Handles invalid folders and edge cases gracefully
 
-### 1. Clone the Repo
+---
+
+## 🚀 Usage
+
+### 🔧 Run from terminal:
 ```bash
-git clone https://github.com/your-username/file-organizer-cli.git
-cd file-organizer-cli
+python file_organizer.py /path/to/your/folder
